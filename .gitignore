@@ -1,0 +1,34 @@
+src/*.exe
+src/lacubanada
+src/lacubanadad
+src/test_lacubanada
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.lacubanada
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+lacubanada-qt
+lacubanada-Qt.app
+
+# Unit-tests
+Makefile.test
+lacubanada-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
